@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Social links profile repository URL](https://github.com/bakaredimeji330-ctrl/Social-Links)
+- Live Site URL: [Social links profile live site URL](https://bakaredimeji330-ctrl.github.io/Social-Links/)
 
 ## My process
 I solved the challenge by analysing the designs given and the style-guide to make sense of the required or best-fit elements and tags.
