@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --lime-green: hsl(75, 94%, 57%);
+  --light-black: hsl(0, 0%, 20%);
+}
+
+@font-face {
+  src: url(fonts/static/Inter-Regular.ttf);
+  font-family: Inter;
+}
+
+body{
+  background-color: hsl(0, 0%, 8%);
+  font-family: Inter;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.box {
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  padding: 20px;
+  color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  width: 100%;
+  max-width: 350px;
+}
+
+img {
+  height: 80px;
+  width: 80pxs;
+  border-radius: 50%;
+}
+
+h3 {
+  color: var(--lime-green);
+  font-weight: bold;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+a {
+  color: white;
+  border-radius: 8px;
+  padding: 14px;
+  font-weight: bold;
+  background-color: var(--light-black);
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: var(--light-black);
+  background-color: var(--lime-green);
+}
+
+a:active {
+  background-color: var(--lime-green);
+}
